@@ -1,4 +1,5 @@
 import { navLinks, profile, socials } from '../data/data'
+import { getSocialIcon } from '../components/Icons'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -24,7 +25,7 @@ export default function Footer() {
 
         <nav aria-labelledby="footer-navigation">
           <h2 className="text-sm font-semibold uppercase tracking-widest text-neutral-300">
-            Navigasi
+            Navigation
           </h2>
           <ul id="footer-navigation" className="mt-4 flex flex-col gap-3">
             {navLinks.map((link) => (
@@ -45,18 +46,21 @@ export default function Footer() {
             Connect
           </h2>
           <ul id="footer-socials" className="mt-4 flex flex-wrap gap-3">
-            {socials.map((social) => (
-              <li key={social.label}>
-                <a
-                  href={social.href}
-                  className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 text-sm font-bold transition-transform hover:-translate-y-1"
-                  style={{ backgroundColor: social.bg, color: social.color }}
-                  aria-label={social.label}
-                >
-                  {social.icon}
-                </a>
-              </li>
-            ))}
+            {socials.map((social) => {
+              const IconComponent = getSocialIcon(social.icon)
+
+              return (
+                <li key={social.label}>
+                  <a
+                    href={social.href}
+                    className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-neutral-400 transition-all duration-300 hover:-translate-y-1 hover:border-primary-700/50 hover:text-primary-900 hover:bg-white/10"
+                    aria-label={social.label}
+                  >
+                    {IconComponent && <IconComponent className="h-5 w-5" />}
+                  </a>
+                </li>
+              )
+            })}
           </ul>
         </section>
       </div>

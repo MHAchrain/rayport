@@ -7,11 +7,11 @@ export const profile = {
   location: 'Indonesia',
   email: 'ray.mhachrain@email.com',
   photo: Ray,
-  headline: 'Halo, saya MHAchrain (Ray).',
+  headline: 'Hi, I\'m MHAchrain (Ray).',
   description:
-    'Seorang Frontend Developer & UI/UX Designer yang berfokus pada pembuatan antarmuka digital yang bersih, konsisten, dan intuitif. Saat ini aktif mengembangkan berbagai projek kuliah maupun projek pribadi dengan perhatian penuh terhadap detail visual dan kenyamanan pengguna (user-centric design).',
+    'A Frontend Developer & UI/UX Designer focused on creating clean, consistent, and intuitive digital interfaces. Currently actively developing various academic and personal projects with full attention to visual detail and user comfort (user-centric design).',
   summary:
-    'Saya membangun pengalaman digital dari sisi visual hingga implementasi frontend. Fokus saya ada pada sistem UI yang rapi, flow yang mudah dipahami, dan detail kecil yang membuat produk terasa nyaman digunakan.',
+    'I build digital experiences from visual design to frontend implementation. My focus is on neat UI systems, easy-to-understand flow, and small details that make products feel comfortable to use.',
 }
 
 export const navLinks = [
@@ -24,10 +24,10 @@ export const navLinks = [
 ]
 
 export const socials = [
-  { label: 'GitHub', href: 'https://github.com/', handle: '@mhachrain', icon: 'GH', bg: '#181717', color: '#ffffff' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/', handle: 'MHAchrain Ray', icon: 'in', bg: '#0a66c2', color: '#ffffff' },
-  { label: 'Instagram', href: 'https://instagram.com/', handle: '@mhachrain', icon: 'IG', bg: '#e4405f', color: '#ffffff' },
-  { label: 'Email', href: 'mailto:ray.mhachrain@email.com', handle: 'Kirim pesan', icon: '@', bg: '#8a1730', color: '#ffffff' },
+  { label: 'GitHub', href: 'https://github.com/MHAchrain', handle: '@MHAchrain', icon: 'Github' },
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/muhammad-hikmaturrahman-achrain-02b3a0327/', handle: 'Muhammad Hikmaturrahman Achrain', icon: 'Linkedin' },
+  { label: 'Instagram', href: 'https://instagram.com/mhrain._', handle: '@mhrain._', icon: 'Instagram' },
+  { label: 'Email', href: 'mailto:mhikmaturrahman2@gmail.com', handle: 'Kirim pesan', icon: 'Email' },
 ]
 
 export const skills = [
@@ -49,27 +49,27 @@ export const skillGroups = [
   {
     title: 'Frontend',
     icon: '</>',
-    description: 'Membangun layout responsif, komponen reusable, dan interaksi halus.',
+    description: 'Building responsive layouts, reusable components, and smooth interactions.',
     items: ['React', 'JavaScript', 'CSS Architecture', 'Vite'],
   },
   {
     title: 'UI/UX',
     icon: 'UI',
-    description: 'Merancang alur, visual hierarchy, prototype, dan pengalaman berbasis pengguna.',
+    description: 'Designing user flows, visual hierarchy, prototypes, and user-centered experiences.',
     items: ['Figma', 'Wireframe', 'Prototype', 'Design System'],
   },
   {
     title: 'Workflow',
     icon: '{}',
-    description: 'Menjaga struktur kode, dokumentasi ringan, dan iterasi desain yang terarah.',
+    description: 'Maintaining code structure, lightweight documentation, and directed design iterations.',
     items: ['Git', 'Component Thinking', 'Research', 'Testing UI'],
   },
 ]
 
 export const aboutPoints = [
-  'Menyusun interface dari wireframe, visual design, hingga implementasi frontend.',
-  'Menjaga konsistensi spacing, warna, tipografi, dan komponen agar produk terasa rapi.',
-  'Mengutamakan flow pengguna yang jelas, responsif, dan nyaman dipakai di berbagai layar.',
+  'Building interfaces from wireframes, visual design, to frontend implementation.',
+  'Maintaining consistency in spacing, colors, typography, and components for a polished product.',
+  'Prioritizing clear user flows, responsiveness, and comfort across various screen sizes.',
 ]
 
 export const projects = [
@@ -78,7 +78,7 @@ export const projects = [
     category: 'Web App',
     image: '/projects/campus-task.svg',
     description:
-      'Dashboard produktivitas untuk mengelola tugas kuliah, prioritas, dan progres harian dengan visual yang fokus.',
+      'Productivity dashboard for managing college tasks, priorities, and daily progress with a focus on visual clarity.',
     tech: ['React', 'CSS', 'Local Data'],
   },
   {
@@ -86,7 +86,7 @@ export const projects = [
     category: 'Personal Brand',
     image: '/projects/portfolio-system.svg',
     description:
-      'Eksplorasi sistem visual untuk portfolio modern dengan komponen glass, tone premium, dan navigasi ringkas.',
+      'Visual system exploration for a modern portfolio with glass components, premium tones, and concise navigation.',
     tech: ['UI Design', 'Figma', 'Prototype'],
   },
   {
@@ -94,7 +94,7 @@ export const projects = [
     category: 'Interface Design',
     image: '/projects/event-landing.svg',
     description:
-      'Halaman acara mahasiswa dengan struktur informasi jelas, CTA tegas, dan layout yang mudah dipindai.',
+      'Student event landing page with a clear information structure, clear CTAs, and an easily scannable layout.',
     tech: ['HTML', 'CSS', 'Responsive'],
   },
 ]
@@ -102,21 +102,21 @@ export const projects = [
 export const experiences = [
   {
     year: '2024',
-    title: 'Memulai eksplorasi UI/UX',
+    title: 'Starting UI/UX Exploration',
     description:
-      'Mempelajari prinsip dasar layout, warna, tipografi, dan flow pengguna melalui berbagai studi kasus desain.',
+      'Learning the fundamentals of layout, color, typography, and user flow through various design case studies.',
   },
   {
     year: '2025',
-    title: 'Mengembangkan projek kuliah',
+    title: 'Developing Academic Projects',
     description:
-      'Membangun interface web untuk kebutuhan akademik, presentasi projek, dan latihan implementasi frontend.',
+      'Building web interfaces for academic needs, project presentations, and frontend implementation practice.',
   },
   {
     year: '2026',
-    title: 'Mengarahkan personal branding',
+    title: 'Guiding Personal Branding',
     description:
-      'Merapikan identitas visual, menyusun portfolio, dan memperkuat proses desain hingga frontend development.',
+      'Refining visual identity, assembling portfolio, and strengthening the design-to-frontend development process.',
   },
 ]
 

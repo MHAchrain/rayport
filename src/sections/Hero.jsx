@@ -1,13 +1,14 @@
 import { profile } from '../data/data'
 import Aurora from '../components/Aurora'
+import TextType from '../components/TextType'
 
 export default function Hero() {
   return (
     <section
       id="home"
-      className="relative isolate flex min-h-screen items-center justify-center overflow-hidden bg-background px-6 pb-20 pt-28 text-center"
+      className="relative isolate flex min-h-screen scroll-mt-24 items-center justify-center overflow-hidden bg-background px-6 text-center"
     >
-      <div className="absolute inset-0 z-0 [mask-image:linear-gradient(to_bottom,black_0%,black_72%,transparent_100%)]">
+      <div className="absolute inset-0 z-0 mask-[linear-gradient(to_bottom,black_0%,black_72%,transparent_100%)]">
         <Aurora
           colorStops={['#1a0000', '#950101', '#ff1f1f']}
           amplitude={1}
@@ -17,7 +18,7 @@ export default function Hero() {
       </div>
 
       <div className="absolute inset-0 z-0 bg-background/45" />
-      <div className="absolute inset-0 z-0 bg-[linear-gradient(rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-size-[44px_44px] [mask-image:linear-gradient(to_bottom,black_0%,black_68%,transparent_100%)]" />
+      <div className="absolute inset-0 z-0 bg-[linear-gradient(rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-size-[44px_44px] mask-[linear-gradient(to_bottom,black_0%,black_68%,transparent_100%)]" />
       <div className="absolute inset-x-0 top-0 z-0 h-72 bg-linear-to-b from-primary-300/70 via-primary-200/20 to-transparent" />
       <div className="absolute inset-x-0 bottom-0 z-0 h-48 bg-linear-to-b from-transparent via-background/85 to-background" />
 
@@ -37,10 +38,23 @@ export default function Hero() {
           </span>
         </h1>
 
-        <h2 className="mx-auto mt-4 max-w-4xl text-xl font-bold leading-relaxed text-neutral-200 sm:text-2xl md:text-3xl">
+        <h2
+          className="mx-auto mt-4 max-w-4xl text-xl font-bold leading-relaxed text-neutral-200 sm:text-2xl md:text-3xl"
+          aria-label={`Building digital experiences as a ${profile.role}`}
+        >
           Building digital experiences as a{' '}
-          <span className="relative inline-flex text-white">
-            {profile.role}
+          <span className="relative inline-flex min-w-[21ch] justify-center text-white" aria-hidden="true">
+            <TextType
+              as="span"
+              text={['Frontend Developer', 'UI/UX Designer', profile.role]}
+              typingSpeed={70}
+              deletingSpeed={35}
+              pauseDuration={1500}
+              cursorBlinkDuration={0.5}
+              cursorCharacter="_"
+              cursorClassName="text-primary-900"
+              textColors={['#ffffff', '#ff9a9a', '#ffffff']}
+            />
             <span className="absolute -bottom-1 left-0 h-0.5 w-full bg-linear-to-r from-transparent via-primary-900 to-transparent" />
           </span>
         </h2>

@@ -6,6 +6,11 @@ body{
     font-family: 'Fira Code', monospace;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
 @theme {
     --color-primary: #3D0000;
     --color-primary-100: #1a0000;
@@ -32,6 +37,11 @@ body{
     --color-background: #040303;
     
     --color-text: #ffffff;
+}
+
+
+html{
+    scroll-behavior: smooth;
 }
 
 html, body, #root {
