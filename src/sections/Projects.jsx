@@ -5,18 +5,18 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative isolate scroll-mt-24 overflow-hidden bg-background px-6 pb-20"
+      className="relative isolate scroll-mt-28 overflow-hidden bg-background px-4 py-16 sm:px-6 sm:py-20 lg:scroll-mt-24"
     >
       <div className="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(circle_at_85%_55%,rgba(255,31,31,0.12),transparent_35%),radial-gradient(circle_at_16%_78%,rgba(119,0,0,0.16),transparent_30%)]" />
       <div className="absolute inset-x-0 bottom-0 z-0 h-48 bg-linear-to-b from-transparent via-background/85 to-background" />
 
-      <div className="relative z-10 mx-auto max-w-7xl">
+      <div className="relative z-10 mx-auto max-w-[88rem]">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="text-md font-semibold uppercase tracking-widest text-primary-800">
               Projects
             </p>
-            <h2 className="mt-6 max-w-3xl text-4xl font-black leading-tight text-white sm:text-5xl lg:text-[3.35rem]">
+            <h2 className="mt-6 max-w-3xl text-3xl font-black leading-tight text-white sm:text-5xl lg:text-[3.35rem]">
               Selected work shaped with clean structure and careful interface details.
             </h2>
           </div>
@@ -26,7 +26,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-5 lg:grid-cols-3">
+        <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {projects.map((project, index) => (
             <article
               key={project.title}

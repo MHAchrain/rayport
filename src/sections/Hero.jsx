@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative isolate flex min-h-screen scroll-mt-24 items-center justify-center overflow-hidden bg-background px-6 text-center"
+      className="relative isolate flex min-h-screen scroll-mt-28 items-center justify-center overflow-hidden bg-background px-4 pb-20 pt-32 text-center sm:px-6 sm:pt-28 lg:scroll-mt-24"
     >
       <div className="absolute inset-0 z-0 mask-[linear-gradient(to_bottom,black_0%,black_72%,transparent_100%)]">
         <Aurora
@@ -22,8 +22,8 @@ export default function Hero() {
       <div className="absolute inset-x-0 top-0 z-0 h-72 bg-linear-to-b from-primary-300/70 via-primary-200/20 to-transparent" />
       <div className="absolute inset-x-0 bottom-0 z-0 h-48 bg-linear-to-b from-transparent via-background/85 to-background" />
 
-      <div className="relative z-10 mx-auto max-w-5xl">
-        <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-secondary-900 backdrop-blur-md shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06),0_0_24px_rgba(149,1,1,0.2)]">
+      <div className="relative z-10 mx-auto w-full max-w-5xl">
+        <p className="inline-flex max-w-full items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-[0.68rem] font-semibold uppercase tracking-widest text-secondary-900 backdrop-blur-md shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06),0_0_24px_rgba(149,1,1,0.2)] sm:px-4 sm:text-xs">
           <span className="relative flex h-2.5 w-2.5">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary-900 opacity-75" />
             <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-primary-900 shadow-[0_0_12px_rgba(255,31,31,0.9)]" />
@@ -31,7 +31,7 @@ export default function Hero() {
           Available for Freelance & Part-time
         </p>
 
-        <h1 className="mx-auto mt-6 max-w-5xl text-4xl font-black tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="mx-auto mt-6 max-w-5xl text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
           Hi, I'm{' '}
           <span className="bg-linear-to-r from-primary-800 via-secondary-900 to-primary-900 bg-clip-text text-transparent">
             {profile.name}
@@ -39,11 +39,11 @@ export default function Hero() {
         </h1>
 
         <h2
-          className="mx-auto mt-4 max-w-4xl text-xl font-bold leading-relaxed text-neutral-200 sm:text-2xl md:text-3xl"
+          className="mx-auto mt-4 max-w-4xl text-lg font-bold leading-relaxed text-neutral-200 sm:text-2xl md:text-3xl"
           aria-label={`Building digital experiences as a ${profile.role}`}
         >
           Building digital experiences as a{' '}
-          <span className="relative inline-flex min-w-[21ch] justify-center text-white" aria-hidden="true">
+          <span className="relative inline-flex max-w-full justify-center text-white sm:min-w-[21ch]" aria-hidden="true">
             <TextType
               as="span"
               text={['Frontend Developer', 'UI/UX Designer', profile.role]}

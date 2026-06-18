@@ -5,8 +5,8 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="border-t border-white/10 bg-background px-6 py-10 text-white">
-      <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
+    <footer className="border-t border-white/10 bg-background px-4 py-10 text-white sm:px-6">
+      <div className="mx-auto grid max-w-352 gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
         <section className="space-y-4" aria-labelledby="footer-brand">
           <a href="#home" className="inline-flex items-center gap-3">
             <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/20 bg-white/10 font-mono text-xl font-bold text-white shadow-inner">
@@ -65,7 +65,7 @@ export default function Footer() {
         </section>
       </div>
 
-      <section className="mx-auto mt-10 flex max-w-7xl flex-col gap-3 border-t border-white/10 pt-6 text-sm text-neutral-500 sm:flex-row sm:items-center sm:justify-between" aria-label="Footer credits">
+      <section className="mx-auto mt-10 flex max-w-352 flex-col gap-3 border-t border-white/10 pt-6 text-sm text-neutral-500 sm:flex-row sm:items-center sm:justify-between" aria-label="Footer credits">
         <p>&copy; {currentYear} {profile.nickname}. All rights reserved.</p>
         <p>Built with React, Vite, and Tailwind CSS.</p>
       </section>

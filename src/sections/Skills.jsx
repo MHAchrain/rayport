@@ -20,19 +20,19 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative isolate scroll-mt-24 overflow-hidden bg-background px-6 pb-20"
+      className="relative isolate scroll-mt-28 overflow-hidden bg-background px-4 py-16 sm:px-6 sm:py-20 lg:scroll-mt-24"
     >
       <div className="pointer-events-none absolute inset-0 z-0 h-full bg-[linear-gradient(rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-size-[44px_44px] mask-[linear-gradient(to_bottom,transparent_0%,black_15%,black_100%)]" />
       <div className="absolute inset-x-0 bottom-0 z-0 h-48 bg-linear-to-b from-transparent via-background/85 to-background" />
       <div className="pointer-events-none absolute top-2/6 left-0 -z-10 h-100 w-100 -translate-y-1/2 rounded-full bg-primary-900/15 blur-[110px]" />
       <div className="pointer-events-none absolute top-2/3 right-12 -z-10 h-100 w-100 -translate-y-1/2 rounded-full bg-primary-900/15 blur-[110px]" />
 
-      <div className="relative z-10 mx-auto grid max-w-7xl gap-14 lg:grid-cols-[0.82fr_1.18fr] lg:items-end">
+      <div className="relative z-10 mx-auto grid max-w-[88rem] gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-end lg:gap-14">
         <div>
           <p className="text-md font-semibold uppercase tracking-widest text-primary-800">
             Skills
           </p>
-          <h2 className="mt-6 max-w-2xl text-4xl font-black leading-tight text-white sm:text-5xl lg:text-[3.35rem]">
+          <h2 className="mt-6 max-w-2xl text-3xl font-black leading-tight text-white sm:text-5xl lg:text-[3.35rem]">
             Tools and thinking I use to shape clean digital products.
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-8 text-neutral-400 md:text-lg">
@@ -55,7 +55,7 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="mx-auto mt-14 grid max-w-7xl gap-5 lg:grid-cols-3">
+      <div className="mx-auto mt-12 grid max-w-[88rem] gap-5 md:grid-cols-3 lg:mt-14">
         {skillGroups.map((group) => {
           const groupColor = getIconColor(group.icon)
 
@@ -86,7 +86,7 @@ export default function Skills() {
         })}
       </div>
 
-      <div className="mx-auto mt-8 grid max-w-7xl grid-cols-2 gap-3 sm:grid-cols-5">
+      <div className="mx-auto mt-8 grid max-w-[88rem] grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
         {skills.map((skill) => {
           const skillColor = getIconColor(skill.icon)
 

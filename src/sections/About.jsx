@@ -1,4 +1,4 @@
-import { aboutPoints, profile, logos } from '../data/data'
+import { aboutPoints, profile } from '../data/data'
 import Lanyard from '../components/Lanyard'
 import profileCard from '../assets/profile.jpeg'
 import backCard from '../assets/MHADarkRed.png'
@@ -6,11 +6,11 @@ import backCard from '../assets/MHADarkRed.png'
 
 export default function About() {
   return (
-    <section id="about" className="relative isolate scroll-mt-24 overflow-hidden bg-background px-6">
+    <section id="about" className="relative isolate scroll-mt-28 overflow-hidden bg-background px-4 py-16 sm:px-6 sm:py-20 lg:scroll-mt-24 lg:py-0">
       <div className="absolute inset-x-0 top-0 z-0 h-40 bg-linear-to-b from-background via-primary-200/10 to-transparent" />
 
-      <div className="relative z-10 mx-auto grid min-h-[calc(100vh-6rem)] max-w-7xl items-center gap-10 lg:grid-cols-[0.82fr_1.18fr]">
-        <section className="relative mx-auto h-[calc(100vh-7rem)] min-h-120 w-full max-w-md overflow-visible">
+      <div className="relative z-10 mx-auto grid max-w-[88rem] items-center gap-8 md:grid-cols-[0.9fr_1.1fr] lg:min-h-[calc(100vh-6rem)] lg:grid-cols-[0.82fr_1.18fr] lg:gap-10">
+        <section className="relative mx-auto h-88 w-full max-w-sm overflow-visible sm:h-108 md:h-[34rem] lg:h-[calc(100vh-7rem)] lg:min-h-120 lg:max-w-md">
           <Lanyard
             position={[0, 0, 12]}
             gravity={[0, -35, 0]}
@@ -23,7 +23,7 @@ export default function About() {
           />
         </section>
 
-        <article className="h-full w-full max-w-3xl flex-col justify-center text-center lg:text-left">
+        <article className="w-full max-w-3xl flex-col justify-center text-center md:text-left lg:h-full">
           <p className="text-md font-semibold uppercase tracking-widest text-primary-800">
             About Me
           </p>
