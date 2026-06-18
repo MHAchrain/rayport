@@ -8,16 +8,36 @@ body{
 
 @theme {
     --color-primary: #3D0000;
-    --color-primary-100: #3D0000;
-    --color-primary-200: #5a0000;
-    --color-primary-300: #770000;
-    --color-primary-400: #940000;
-    --color-primary-500: #b10000;
-    --color-primary-600: #ce0000;
-    --color-primary-700: #eb0000;
-    --color-primary-800: #ff0000;
+    --color-primary-100: #1a0000;
+    --color-primary-200: #2b0000;
+    --color-primary-300: #3D0000;
+    --color-primary-400: #5a0000;
+    --color-primary-500: #770000;
+    --color-primary-600: #940000;
+    --color-primary-700: #b10000;
+    --color-primary-800: #d60000;
+    --color-primary-900: #ff1f1f;
+
     --color-secondary: #950101;
+    --color-secondary-100: #240000;
+    --color-secondary-200: #3b0000;
+    --color-secondary-300: #560000;
+    --color-secondary-400: #720000;
+    --color-secondary-500: #950101;
+    --color-secondary-600: #b51a1a;
+    --color-secondary-700: #d43a3a;
+    --color-secondary-800: #ef6464;
+    --color-secondary-900: #ff9a9a;
+    
     --color-background: #040303;
+    
     --color-text: #ffffff;
 }
 
+html, body, #root {
+    min-height: 100%;
+}
+
+#root {
+    min-height: 100vh;
+}

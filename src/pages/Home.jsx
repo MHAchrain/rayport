@@ -1,15 +1,18 @@
 import Navbar from '../components/Navbar'
+import Footer from '../sections/Footer'
+import Hero from '../sections/Hero'
 
 export default function Home() {
 
   return (
     <>
-      <Navbar />
-      <main className="grow">
-        <section id="home" className="flex h-screen items-center justify-center ">
-          <h1 className="text-4xl font-bold text-white">Welcome to the Home Page</h1>
-        </section>
-      </main>
+      <div className="flex min-h-screen flex-col">
+        <Navbar />
+        <main className="grow">
+          <Hero />
+        </main>
+        <Footer />
+      </div>
     </>
   )
 }
