@@ -31,38 +31,36 @@ export const socials = [
 ]
 
 export const skills = [
-  { name: 'HTML', icon: 'H5', bg: '#e34f26', color: '#ffffff' },
-  { name: 'CSS', icon: 'CSS', bg: '#1572b6', color: '#ffffff' },
-  { name: 'JavaScript', icon: 'JS', bg: '#f7df1e', color: '#121212' },
-  { name: 'React', icon: 'Re', bg: '#61dafb', color: '#06131a' },
-  { name: 'Vite', icon: 'V', bg: '#646cff', color: '#ffffff' },
-  { name: 'Tailwind CSS', icon: 'TW', bg: '#38bdf8', color: '#06202b' },
-  { name: 'UI Design', icon: 'UI', bg: '#c73d59', color: '#ffffff' },
-  { name: 'UX Research', icon: 'UX', bg: '#9b5cff', color: '#ffffff' },
-  { name: 'Figma', icon: 'F', bg: '#f24e1e', color: '#ffffff' },
-  { name: 'Wireframing', icon: 'WF', bg: '#64748b', color: '#ffffff' },
-  { name: 'Prototyping', icon: 'PT', bg: '#00c4b4', color: '#061615' },
-  { name: 'Responsive Design', icon: 'RD', bg: '#22c55e', color: '#06140b' },
+  { name: 'HTML', icon: 'HTML'},
+  { name: 'CSS', icon: 'CSS'},
+  { name: 'JavaScript', icon: 'JS'},
+  { name: 'React.js', icon: 'React'},
+  { name: 'Tailwind CSS', icon: 'TW'},
+  { name: 'UI Design', icon: 'UI'},
+  { name: 'UX Research', icon: 'UX'},
+  { name: 'Figma', icon: 'Figma'},
+  { name: 'Vue.js', icon: 'Vue'},
+  { name: 'Flutter', icon: 'Flutter'},
 ]
 
 export const skillGroups = [
   {
-    title: 'Frontend',
-    icon: '</>',
+    title: 'Frontend Developer',
+    icon: 'React',
     description: 'Building responsive layouts, reusable components, and smooth interactions.',
-    items: ['React', 'JavaScript', 'CSS Architecture', 'Vite'],
+    items: ['React', 'JavaScript', 'Tailwind CSS', 'Vue.js'],
   },
   {
-    title: 'UI/UX',
+    title: 'UI/UX Designer',
     icon: 'UI',
     description: 'Designing user flows, visual hierarchy, prototypes, and user-centered experiences.',
     items: ['Figma', 'Wireframe', 'Prototype', 'Design System'],
   },
   {
-    title: 'Workflow',
-    icon: '{}',
-    description: 'Maintaining code structure, lightweight documentation, and directed design iterations.',
-    items: ['Git', 'Component Thinking', 'Research', 'Testing UI'],
+    title: 'Mobile Developer',
+    icon: 'Flutter',
+    description: 'Creating cross-platform mobile applications with a focus on performance and user experience.',
+    items: ['Flutter', 'Dart', 'Responsive Design', 'State Management'],
   },
 ]
 

@@ -6,7 +6,7 @@ import backCard from '../assets/back.jpg'
 
 export default function About() {
   return (
-    <section id="about" className="relative isolate scroll-mt-24 overflow-visible bg-background px-6">
+    <section id="about" className="relative isolate scroll-mt-24 overflow-hidden bg-background px-6">
       <div className="absolute inset-x-0 top-0 z-0 h-40 bg-linear-to-b from-background via-primary-200/10 to-transparent" />
 
       <div className="relative z-10 mx-auto grid min-h-[calc(100vh-6rem)] max-w-7xl items-center gap-10 lg:grid-cols-[0.82fr_1.18fr]">
@@ -24,7 +24,7 @@ export default function About() {
         </section>
 
         <article className="h-full w-full max-w-3xl flex-col justify-center text-center lg:text-left">
-          <p className="text-sm font-semibold uppercase tracking-widest text-primary-800">
+          <p className="text-md font-semibold uppercase tracking-widest text-primary-800">
             About Me
           </p>
 
