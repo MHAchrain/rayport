@@ -1,10 +1,12 @@
+import Ray from '../assets/profile.jpeg'
+
 export const profile = {
   name: 'MHAchrain',
   nickname: 'Ray',
   role: 'Frontend Developer & UI/UX Designer',
   location: 'Indonesia',
   email: 'ray.mhachrain@email.com',
-  photo: '/profile-ray.svg',
+  photo: Ray,
   headline: 'Halo, saya MHAchrain (Ray).',
   description:
     'Seorang Frontend Developer & UI/UX Designer yang berfokus pada pembuatan antarmuka digital yang bersih, konsisten, dan intuitif. Saat ini aktif mengembangkan berbagai projek kuliah maupun projek pribadi dengan perhatian penuh terhadap detail visual dan kenyamanan pengguna (user-centric design).',

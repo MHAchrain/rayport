@@ -2,7 +2,7 @@ import { navLinks, profile } from '../data/data'
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-primary/15 backdrop-blur-md">
+    <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-primary/15 backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-4">
         
         {/* Brand / Logo */}
@@ -28,7 +28,7 @@ export default function Navbar() {
             >
               {link.label}
               {/* Garis bawah animasi */}
-              <span className="absolute -bottom-1.5 left-1/2 h-0.5 w-0 -translate-x-1/2 rounded-full bg-primary-400 shadow-[0_0_8px_#b10000] transition-all duration-300 ease-out group-hover:w-full"/>
+              <span className="absolute -bottom-1.5 left-1/2 h-0.5 w-0 -translate-x-1/2 rounded-full bg-primary-800 shadow-[0_0_8px_#b10000] transition-all duration-300 ease-out group-hover:w-full"/>
             </a>
           ))}
         </div>

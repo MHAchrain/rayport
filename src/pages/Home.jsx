@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar'
 import Footer from '../sections/Footer'
 import Hero from '../sections/Hero'
+import About from '../sections/About'
 
 export default function Home() {
 
@@ -10,6 +11,7 @@ export default function Home() {
         <Navbar />
         <main className="grow">
           <Hero />
+          <About />
         </main>
         <Footer />
       </div>

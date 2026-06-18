@@ -1,62 +1,77 @@
 import { profile } from '../data/data'
+import Aurora from '../components/Aurora'
 
 export default function Hero() {
-    return(
-        <section id="home" className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-4 pt-16">
+  return (
+    <section
+      id="home"
+      className="relative isolate flex min-h-screen items-center justify-center overflow-hidden bg-background px-6 pb-20 pt-28 text-center"
+    >
+      <div className="absolute inset-0 z-0 [mask-image:linear-gradient(to_bottom,black_0%,black_72%,transparent_100%)]">
+        <Aurora
+          colorStops={['#1a0000', '#950101', '#ff1f1f']}
+          amplitude={1}
+          blend={1}
+          speed={0.5}
+        />
+      </div>
 
-        {/* 1. AMBIENT GLOW EFFECT (Latar belakang pendaran cahaya) */}
-            <div className="absolute top-1/4 left-1/2 -z-10 h-75 w-75 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary-500/10 blur-[120px] md:h-125 md:w-125" />
-            <div className="absolute top-1/3 right-10 -z-10 h-50 w-50 rounded-full bg-purple-500/5 blur-[100px]" />
+      <div className="absolute inset-0 z-0 bg-background/45" />
+      <div className="absolute inset-0 z-0 bg-[linear-gradient(rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-size-[44px_44px] [mask-image:linear-gradient(to_bottom,black_0%,black_68%,transparent_100%)]" />
+      <div className="absolute inset-x-0 top-0 z-0 h-72 bg-linear-to-b from-primary-300/70 via-primary-200/20 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 z-0 h-48 bg-linear-to-b from-transparent via-background/85 to-background" />
 
-            {/* 2. HERO CONTENT CONTAINER */}
-            <div className="mx-auto max-w-4xl text-center z-10">
+      <div className="relative z-10 mx-auto max-w-5xl">
+        <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-secondary-900 backdrop-blur-md shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06),0_0_24px_rgba(149,1,1,0.2)]">
+          <span className="relative flex h-2.5 w-2.5">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary-900 opacity-75" />
+            <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-primary-900 shadow-[0_0_12px_rgba(255,31,31,0.9)]" />
+          </span>
+          Available for Freelance & Part-time
+        </p>
 
-            {/* Badge Sapaan dengan efek Glassmorphic */}
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium tracking-wide text-primary-900 backdrop-blur-md shadow-[inset_0_1px_0_0_rgba(255,255,255,0.05)]">
-                <span className="h-2 w-2 animate-ping rounded-full bg-primary-800" />
-                Available for Freelance & Full-time
-            </span>
+        <h1 className="mx-auto mt-6 max-w-5xl text-4xl font-black tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+          Hi, I'm{' '}
+          <span className="bg-linear-to-r from-primary-800 via-secondary-900 to-primary-900 bg-clip-text text-transparent">
+            {profile.name}
+          </span>
+        </h1>
 
-            {/* Heading Utama */}
-            <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-                Hi, I'm <span className="bg-linear-to-r from-primary-800 via-primary-900 to-primary-800 bg-clip-text text-transparent">{profile.name}</span>
-            </h1>
+        <h2 className="mx-auto mt-4 max-w-4xl text-xl font-bold leading-relaxed text-neutral-200 sm:text-2xl md:text-3xl">
+          Building digital experiences as a{' '}
+          <span className="relative inline-flex text-white">
+            {profile.role}
+            <span className="absolute -bottom-1 left-0 h-0.5 w-full bg-linear-to-r from-transparent via-primary-900 to-transparent" />
+          </span>
+        </h2>
 
-            {/* Sub-heading / Role */}
-            <h2 className="mt-3 text-xl font-bold tracking-wide text-neutral-200 sm:text-2xl md:text-3xl">
-                Building Digital Experience as a <span className="underline decoration-primary-800/50 decoration-wavy">{profile.role}</span>
-            </h2>
+        <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-neutral-400 md:text-lg">
+          I focus on creating web interfaces that feel clean, responsive, and thoughtful from visual concept to frontend implementation. Let's bring your ideas to life.
+        </p>
 
-            {/* Deskripsi Singkat */}
-            <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-neutral-400 md:text-lg">
-                Saya berfokus pada pembuatan aplikasi web yang tidak hanya fungsional, tetapi juga memiliki visual yang memukau dan performa yang optimal. Mari bawa ide hebat Anda menjadi kenyataan.
-            </p>
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+          <a
+            href="#projects"
+            className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg border border-primary-700 bg-primary-300 px-6 py-3 font-semibold text-white shadow-[0_0_16px_rgba(149,1,1,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:border-primary-900 hover:bg-primary-500 hover:shadow-[0_0_36px_rgba(255,31,31,0.5)] active:translate-y-0"
+          >
+            <span className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/30 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
+            <span className="absolute inset-0 scale-75 rounded-lg bg-primary-900/20 opacity-0 blur-md transition-all duration-500 group-hover:scale-100 group-hover:opacity-100" />
+            <span className="absolute left-1 top-1 h-2 w-2 border-l-2 border-t-2 border-primary-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+            <span className="absolute bottom-1 right-1 h-2 w-2 border-b-2 border-r-2 border-primary-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+            <span className="relative z-10">View Projects</span>
+          </a>
 
-            {/* 3. CALL TO ACTION (CTA) BUTTONS */}
-            <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-
-                {/* Button CTA */}
-                <a
-                    href="#projects"
-                    className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg border border-primary-700 bg-primary-300 px-6 py-3 font-semibold text-white shadow-[0_0_16px_rgba(149,1,1,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:border-primary-900 hover:bg-primary-500 hover:shadow-[0_0_24px_rgba(255,31,31,0.5)] active:translate-y-0"
-                    >
-                    <span className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/30 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
-                    <span className="absolute inset-0 scale-75 rounded-lg bg-primary-900/20 opacity-0 blur-md transition-all duration-500 group-hover:scale-100 group-hover:opacity-100" />
-                    <span className="absolute left-1 top-1 h-2 w-2 border-l-2 border-t-2 border-primary-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                    <span className="absolute bottom-1 right-1 h-2 w-2 border-b-2 border-r-2 border-primary-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                    <span className="relative z-10">Lihat Projects</span>
-                </a>
-
-                {/* Button Kedua */}
-                <a
-                    href="#contact"
-                    className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg border border-white/15 bg-white/5 px-6 py-3 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-secondary-700 hover:bg-secondary-500/15 hover:shadow-[0_0_28px_rgba(212,58,58,0.25)] active:translate-y-0"
-                    >
-                    <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-secondary-800 transition-all duration-300 group-hover:w-full" />
-                    <span className="relative z-10">Hubungi Saya</span>
-                </a>
-            </div>
+          <a
+            href="#contact"
+            className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg border border-white/15 bg-white/5 px-6 py-3 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-secondary-700 hover:bg-secondary-500/15 hover:shadow-[0_0_28px_rgba(212,58,58,0.25)] active:translate-y-0"
+          >
+            <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-secondary-800 transition-all duration-300 group-hover:w-full" />
+            <span className="relative z-10">Contact Me</span>
+          </a>
         </div>
+
+      </div>
+
     </section>
-    )
+  )
 }
