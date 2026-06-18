@@ -8,6 +8,7 @@ export default function Projects() {
       className="relative isolate scroll-mt-24 overflow-hidden bg-background px-6 pb-20"
     >
       <div className="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(circle_at_85%_55%,rgba(255,31,31,0.12),transparent_35%),radial-gradient(circle_at_16%_78%,rgba(119,0,0,0.16),transparent_30%)]" />
+      <div className="absolute inset-x-0 bottom-0 z-0 h-48 bg-linear-to-b from-transparent via-background/85 to-background" />
 
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
@@ -40,9 +41,6 @@ export default function Projects() {
                 />
                 <div className="absolute left-3 top-3 rounded-full border border-white/15 bg-background/80 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-neutral-200 backdrop-blur-md">
                   {project.category}
-                </div>
-                <div className="absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-background/80 text-white backdrop-blur-md transition duration-300 group-hover:border-primary-800 group-hover:text-primary-900">
-                  <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
                 </div>
               </div>
 

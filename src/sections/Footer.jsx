@@ -1,4 +1,4 @@
-import { navLinks, profile, socials } from '../data/data'
+import { navLinks, profile, socials, logos } from '../data/data'
 import { getSocialIcon } from '../components/Icons'
 
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
         <section className="space-y-4" aria-labelledby="footer-brand">
           <a href="#home" className="inline-flex items-center gap-3">
             <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/20 bg-white/10 font-mono text-xl font-bold text-white shadow-inner">
-              R
+              <img src={logos.logoWhite} alt="Logo" className="h-8 w-8 object-contain" />
             </span>
             <span className="flex flex-col">
               <strong id="footer-brand" className="text-base font-semibold tracking-wide">{profile.name}</strong>

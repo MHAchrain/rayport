@@ -4,6 +4,8 @@ import Hero from '../sections/Hero'
 import About from '../sections/About'
 import Skills from '../sections/Skills'
 import Projects from '../sections/Projects'
+import Journey from '../sections/Journey'
+import Contact from '../sections/Contact'
 
 export default function Home() {
 
@@ -16,6 +18,8 @@ export default function Home() {
           <About />
           <Skills />
           <Projects />
+          <Journey />
+          <Contact />
         </main>
         <Footer />
       </div>

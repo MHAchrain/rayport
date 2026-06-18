@@ -1,7 +1,7 @@
-import { aboutPoints, profile } from '../data/data'
+import { aboutPoints, profile, logos } from '../data/data'
 import Lanyard from '../components/Lanyard'
 import profileCard from '../assets/profile.jpeg'
-import backCard from '../assets/back.jpg'
+import backCard from '../assets/MHADarkRed.png'
 
 
 export default function About() {

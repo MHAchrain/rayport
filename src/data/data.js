@@ -1,17 +1,30 @@
 import Ray from '../assets/profile.jpeg'
+import Rere1 from '../assets/webapp1.png'
+import Rere2 from '../assets/webapp2.png'
+import Rere3 from '../assets/webapp3.png'
+import SoftComp from '../assets/softcomp.png'
+import Portfolio from '../assets/port.png'
+import MHAR from '../assets/MHARed.svg'
+import MHAW from '../assets/MHAWhite.svg'
+
+export const logos = {
+  logoRed: MHAR,
+  logoWhite: MHAW,
+}
+
 
 export const profile = {
-  name: 'MHAchrain',
+  name: 'MH Achrain',
   nickname: 'Ray',
   role: 'Frontend Developer & UI/UX Designer',
   location: 'Indonesia',
-  email: 'ray.mhachrain@email.com',
+  email: 'mhikmaturrahman2@gmail.com',
   photo: Ray,
-  headline: 'Hi, I\'m MHAchrain (Ray).',
+  headline: 'Hi, I\'m MH Achrain (Ray).',
   description:
     'A Frontend Developer & UI/UX Designer focused on creating clean, consistent, and intuitive digital interfaces. Currently actively developing various academic and personal projects with full attention to visual detail and user comfort (user-centric design).',
   summary:
-    'I build digital experiences from visual design to frontend implementation. My focus is on neat UI systems, easy-to-understand flow, and small details that make products feel comfortable to use.',
+    'This logo embodies my identity as a developer and designer through a precise geometric stencil design that combines the initials MHA, with the letter "A" serving as a UI/UX navigation cursor, all wrapped in the sharp-angled aesthetic characteristic of the gaming world.',
 }
 
 export const navLinks = [
@@ -72,28 +85,28 @@ export const aboutPoints = [
 
 export const projects = [
   {
-    title: 'Campus Task Manager',
+    title: 'ReRe Petshop',
     category: 'Web App',
-    image: '/projects/campus-task.svg',
+    image: Rere1,
     description:
       'Productivity dashboard for managing college tasks, priorities, and daily progress with a focus on visual clarity.',
-    tech: ['React', 'CSS', 'Local Data'],
+    tech: ['React', 'Tailwind CSS', 'Figma', 'UI/UX', 'Laravel', 'PHP', 'MySQL'],
   },
   {
     title: 'Portfolio Concept System',
     category: 'Personal Brand',
-    image: '/projects/portfolio-system.svg',
+    image: Portfolio,
     description:
       'Visual system exploration for a modern portfolio with glass components, premium tones, and concise navigation.',
-    tech: ['UI Design', 'Figma', 'Prototype'],
+    tech: ['React', 'Tailwind CSS', 'Figma', 'UI/UX'],
   },
   {
-    title: 'Student Event Landing',
+    title: 'SoftComp Landing Page',
     category: 'Interface Design',
-    image: '/projects/event-landing.svg',
+    image: SoftComp,
     description:
       'Student event landing page with a clear information structure, clear CTAs, and an easily scannable layout.',
-    tech: ['HTML', 'CSS', 'Responsive'],
+    tech: ['HTML', 'CSS', 'PHP', 'MySQL', 'JS'],
   },
 ]
 
@@ -119,7 +132,7 @@ export const experiences = [
 ]
 
 export const stats = [
-  { value: '12+', label: 'Skill aktif' },
-  { value: '3+', label: 'Area fokus' },
+  { value: '12+', label: 'Active Skills' },
+  { value: '3+', label: 'Focus Areas' },
   { value: '100%', label: 'User-centric' },
 ]

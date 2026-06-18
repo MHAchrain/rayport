@@ -1,4 +1,4 @@
-import { navLinks, profile } from '../data/data'
+import { navLinks, profile, logos } from '../data/data'
 
 export default function Navbar() {
   return (
@@ -10,7 +10,7 @@ export default function Navbar() {
         href="#home">
           <span className="flex h-10 w-10 items-center justify-center rounded-xl 
           bg-white/10 font-mono text-xl font-bold tracking-wider text-white border border-white/20 shadow-inner">
-            R
+            <img src={logos.logoWhite} alt="Logo" className="h-8 w-8 object-contain" />
           </span>
           <span className="flex flex-col global-font">
             <strong className="text-sm font-semibold tracking-wide">{profile.name}</strong>
