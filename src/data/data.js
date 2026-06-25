@@ -6,6 +6,9 @@ import SoftComp from '../assets/softcomp.png'
 import Portfolio from '../assets/port.png'
 import MHAR from '../assets/MHARed.svg'
 import MHAW from '../assets/MHAWhite.svg'
+import grevora from '../assets/grevora.png'
+import cleanair from '../assets/cleanair.png'
+import growsight from '../assets/gs.png'
 
 export const logos = {
   logoRed: MHAR,
@@ -54,6 +57,8 @@ export const skills = [
   { name: 'Figma', icon: 'Figma'},
   { name: 'Vue.js', icon: 'Vue'},
   { name: 'Flutter', icon: 'Flutter'},
+  { name: 'PHP', icon: 'PHP'},
+  { name: 'Python', icon: 'Python'},
 ]
 
 export const skillGroups = [
@@ -61,7 +66,7 @@ export const skillGroups = [
     title: 'Frontend Developer',
     icon: 'React',
     description: 'Building responsive layouts, reusable components, and smooth interactions.',
-    items: ['React', 'JavaScript', 'Tailwind CSS', 'Vue.js'],
+    items: ['React', 'JavaScript', 'Tailwind CSS'],
   },
   {
     title: 'UI/UX Designer',
@@ -86,11 +91,12 @@ export const aboutPoints = [
 export const projects = [
   {
     title: 'ReRe Petshop',
-    category: 'Web App',
+    category: 'Multiplatform Web App',
     image: Rere1,
     description:
       'Productivity dashboard for managing college tasks, priorities, and daily progress with a focus on visual clarity.',
-    tech: ['React', 'Tailwind CSS', 'Figma', 'UI/UX', 'Laravel', 'PHP', 'MySQL'],
+    tech: ['React', 'Tailwind CSS', 'Laravel', 'Flutter', 'Figma', 'UI/UX', 'MySQL'],
+    link: '#',
   },
   {
     title: 'Portfolio Concept System',
@@ -98,36 +104,65 @@ export const projects = [
     image: Portfolio,
     description:
       'Visual system exploration for a modern portfolio with glass components, premium tones, and concise navigation.',
-    tech: ['React', 'Tailwind CSS', 'Figma', 'UI/UX'],
+    tech: ['React', 'Tailwind CSS'],
+    link: 'https://mha-portofolio.vercel.app/',
   },
   {
     title: 'SoftComp Landing Page',
-    category: 'Interface Design',
+    category: 'Website Native',
     image: SoftComp,
     description:
       'Student event landing page with a clear information structure, clear CTAs, and an easily scannable layout.',
     tech: ['HTML', 'CSS', 'PHP', 'MySQL', 'JS'],
+    link: '#',
+  },
+  {
+    title: 'Grevora',
+    category: 'UI/UX Design',
+    image: grevora,
+    description:
+      'A smart urban waste management mobile app based on the circular economy. Developed using the Design Thinking method, Grevora integrates a dual-incentive system and gamification to motivate the public to sort waste directly at the source.',
+    tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
+    link: 'http://figma.com/proto/HsbtvSTWg3iyFG2NZWqKRE/UIUX-Techomfest-KicauMania?node-id=1380-6887&p=f&t=fG1zxi73hse1xH9Y-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1380%3A3697',
+  },
+  {
+    title: 'Clean Air',
+    category: 'UI/UX Design',
+    image: cleanair,
+    description:
+      'A smart urban waste management mobile app based on a circular economy, designed to motivate the public to sort waste directly at the source through a dual-incentive system and gamification.',
+    tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
+    link: 'https://www.figma.com/proto/RAXVQlX3wvvRfqQNtzyzG6/KICAU-MANIA?node-id=1-2&p=f&t=tBaBTfnE43D9xTBQ-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=115%3A108',
+  },
+  {
+    title: 'GrowSight',
+    category: 'UI/UX Design',
+    image: growsight,
+    description:
+      'A mobile healthcare application designed for early stunting detection and child growth monitoring, helping parents track nutritional development and access valid health education easily.',
+    tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
+    link: 'https://www.figma.com/proto/NkcitBwuYIajNkRcbQagzU/UJANGKEDU-UNJAYA?node-id=0-1&t=STwmNSDstHGVZTV3-1',
   },
 ]
 
 export const experiences = [
   {
     year: '2024',
-    title: 'Starting UI/UX Exploration',
+    title: 'Starting Basic of Software Engineering',
     description:
-      'Learning the fundamentals of layout, color, typography, and user flow through various design case studies.',
+      'Learning the fundamentals of software engineering, including programming languages, algorithms, and basic web development concepts.',
   },
   {
     year: '2025',
-    title: 'Developing Academic Projects',
+    title: 'Exploring Web Development and UI/UX Design',
     description:
-      'Building web interfaces for academic needs, project presentations, and frontend implementation practice.',
+      'Diving into web development frameworks, responsive design, and user experience principles to create functional and visually appealing applications.',
   },
   {
     year: '2026',
-    title: 'Guiding Personal Branding',
+    title: 'Developing Multiplatform Solutions & Partnering with Businesses',
     description:
-      'Refining visual identity, assembling portfolio, and strengthening the design-to-frontend development process.',
+    'Designing and building production-ready web and mobile e-commerce applications for local business partners, while mastering full-stack integration and end-to-end development.',
   },
 ]
 

@@ -9,7 +9,9 @@ import {
     FaVuejs,
     FaFigma,
     FaPaintBrush,
-    FaUsers
+    FaUsers,
+    FaPhp,
+    FaPython
 } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import { SiFlutter } from 'react-icons/si'
@@ -28,7 +30,9 @@ const iconComponents = {
     Figma: FaFigma,
     Flutter: SiFlutter,
     UI: FaPaintBrush,
-    UX: FaUsers
+    UX: FaUsers,
+    PHP: FaPhp,
+    Python: FaPython
 }
 
 const iconColors = {
@@ -42,6 +46,8 @@ const iconColors = {
     UI: '#ff4f81',
     UX: '#a78bfa',
     TW: '#38bdf8',
+    PHP: '#777bb4',
+    Python: '#3776ab'
 }
 
 export function getSocialIcon(iconName) {
