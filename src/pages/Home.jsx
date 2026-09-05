@@ -6,6 +6,7 @@ import Skills from '../sections/Skills'
 import Projects from '../sections/Projects'
 import Journey from '../sections/Journey'
 import Contact from '../sections/Contact'
+import Sertification from '../sections/Sertification'
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
           <Hero />
           <About />
           <Skills />
+          <Sertification />
           <Projects />
           <Journey />
           <Contact />

@@ -9,6 +9,10 @@ import MHAW from '../assets/MHAWhite.svg'
 import grevora from '../assets/grevora.png'
 import cleanair from '../assets/cleanair.png'
 import growsight from '../assets/gs.png'
+import sertifdasarweb from '../assets/sertif1.png'
+import sertiflomba from '../assets/sertif2.png'
+import sertiflomba2 from '../assets/sertif3.png'
+import sertiflomba3 from '../assets/sertif4.png'
 
 export const logos = {
   logoRed: MHAR,
@@ -34,6 +38,7 @@ export const navLinks = [
   { label: 'Beranda', href: '#home' },
   { label: 'Tentang Saya', href: '#about' },
   { label: 'Keterampilan', href: '#skills' },
+  { label: 'Sertifikat', href: '#sertif' },
   { label: 'Proyek', href: '#projects' },
   { label: 'Perjalanan', href: '#journey' },
   { label: 'Kontak', href: '#contact' },
@@ -96,7 +101,7 @@ export const projects = [
     description:
       'Website yang dirancang untuk memudahkan pemilik bisnis petshop dalam mengelola produk, stok, dan pesanan secara efisien. Dengan antarmuka yang intuitif, pemilik dapat dengan mudah menambahkan produk baru',
     tech: ['React', 'Tailwind CSS', 'Laravel', 'Flutter', 'Figma', 'UI/UX', 'MySQL'],
-    link: '#',
+    link: 'https://rerepetshop.biz.id/',
   },
   {
     title: 'SoftComp Landing Page',
@@ -133,6 +138,45 @@ export const projects = [
       'Sebuah desain aplikasi layanan kesehatan mobile yang dirancang untuk deteksi dini stunting dan pemantauan pertumbuhan anak dengan bantuan teknologi AI, yang membantu orang tua memantau perkembangan gizi anak serta mengakses edukasi kesehatan yang terpercaya dengan mudah.',
     tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
     link: 'https://www.figma.com/proto/NkcitBwuYIajNkRcbQagzU/UJANGKEDU-UNJAYA?node-id=0-1&t=STwmNSDstHGVZTV3-1',
+  },
+]
+
+export const sertificates = [
+  {
+    title: 'Sertifikat Belajar Dasar Pemrograman Web',
+    category: 'Programming',
+    image: sertifdasarweb,
+    description:
+      'Sertifikat yang menunjukkan keahlian dalam pengembangan web menggunakan teknologi terkini.',
+    tech: ['HTML', 'CSS'],
+    link: '#',
+  },
+  {
+    title: 'Sertifikat Lomba UI/UX Design',
+    category: 'Lomba',
+    image: sertiflomba3,
+    description:
+      'Sertifikat Juara 3 dalam Lomba UI/UX Design.',
+    tech: ['Figma', 'UI/UX Design'],
+    link: '#',
+  },
+  {
+    title: 'Sertifikat Lomba UI/UX Design',
+    category: 'Lomba',
+    image: sertiflomba,
+    description:
+      'Sertifikat hadir sebagai Peserta dalam Lomba UI/UX Design.',
+    tech: ['Figma', 'UI/UX Design'],
+    link: '#',
+  },
+  {
+    title: 'Sertifikat Lomba UI/UX Design',
+    category: 'Lomba',
+    image: sertiflomba2,
+    description:
+      'Sertifikat hadir sebagai Peserta dalam Lomba UI/UX Design.',
+    tech: ['Figma', 'UI/UX Design'],
+    link: '#',
   },
 ]
 
