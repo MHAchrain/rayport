@@ -30,13 +30,13 @@ export default function Skills() {
       <div className="relative z-10 mx-auto grid max-w-[88rem] gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-end lg:gap-14">
         <div>
           <p className="text-md font-semibold uppercase tracking-widest text-primary-800">
-            Skills
+            Keterampilan
           </p>
           <h2 className="mt-6 max-w-2xl text-3xl font-black leading-tight text-white sm:text-5xl lg:text-[3.35rem]">
-            Tools and thinking I use to shape clean digital products.
+            Alat dan pemikiran yang saya gunakan untuk membentuk produk digital yang bersih.
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-8 text-neutral-400 md:text-lg">
-            A mix of frontend implementation, interface design, and workflow habits that help me turn ideas into responsive, consistent, and comfortable web experiences.
+            Perpaduan antara implementasi frontend, desain antarmuka, dan kebiasaan alur kerja yang membantu saya mewujudkan ide-ide menjadi pengalaman web yang responsif, konsisten, dan nyaman.
           </p>
         </div>
 

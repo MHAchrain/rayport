@@ -16,13 +16,13 @@ export default function Contact() {
           <article className="flex min-w-0 flex-col justify-between rounded-xl border border-white/10 bg-[#0b0909]/90 p-5 shadow-2xl shadow-black/30 backdrop-blur-md sm:p-8 lg:min-h-120 lg:p-10">
             <div>
               <p className="text-md font-semibold uppercase tracking-widest text-primary-800">
-                Contact
+                Kontak
               </p>
               <h2 className="mt-6 max-w-3xl text-3xl font-black leading-tight text-white sm:text-5xl lg:text-[3.35rem]">
-                Let&apos;s build a clean and meaningful digital experience.
+                Mari kita ciptakan pengalaman digital yang rapi dan bermakna.
               </h2>
               <p className="mt-6 max-w-2xl text-base leading-8 text-neutral-400 md:text-lg">
-                Open for collaboration, project discussions, and ideas around frontend development, UI systems, or product interface design.
+                Terbuka untuk kolaborasi, diskusi proyek, dan ide-ide tentang pengembangan frontend, sistem UI, atau desain antarmuka produk.
               </p>
             </div>
 
@@ -50,7 +50,7 @@ export default function Contact() {
                 </span>
                 <span>
                   <span className="block text-xs font-semibold uppercase tracking-[0.22em] text-neutral-500">
-                    Location
+                    Lokasi
                   </span>
                   <span className="mt-1 block text-sm font-semibold text-white">
                     {profile.location}
@@ -64,7 +64,7 @@ export default function Contact() {
               className="mt-8 inline-flex w-fit items-center gap-3 rounded-xl border border-primary-800/70 bg-primary-300 px-5 py-3 text-sm font-black text-white shadow-2xl shadow-primary-300/20 transition duration-300 hover:-translate-y-1 hover:bg-primary-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-800"
             >
               <Send className="h-4 w-4" aria-hidden="true" />
-              Send Message
+              Kirim Pesan
             </a>
           </article>
 

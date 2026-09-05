@@ -28,11 +28,11 @@ export default function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary-900 opacity-75" />
             <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-primary-900 shadow-[0_0_12px_rgba(255,31,31,0.9)]" />
           </span>
-          Available for Freelance & Part-time
+          Bersedia untuk Freelance & Part-time
         </p>
 
         <h1 className="mx-auto mt-6 max-w-5xl text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-          Hi, I'm{' '}
+          Halo, Saya{' '}
           <span className="bg-linear-to-r from-primary-800 via-secondary-900 to-primary-900 bg-clip-text text-transparent">
             {profile.name}
           </span>
@@ -40,9 +40,9 @@ export default function Hero() {
 
         <h2
           className="mx-auto mt-4 max-w-4xl text-lg font-bold leading-relaxed text-neutral-200 sm:text-2xl md:text-3xl"
-          aria-label={`Building digital experiences as a ${profile.role}`}
+          aria-label={`Membangun pengalaman digital sebagai sebuah ${profile.role}`}
         >
-          Building digital experiences as a{' '}
+          Membangun pengalaman digital sebagai sebuah{' '}
           <span className="relative inline-flex max-w-full justify-center text-white sm:min-w-[21ch]" aria-hidden="true">
             <TextType
               as="span"
@@ -60,7 +60,7 @@ export default function Hero() {
         </h2>
 
         <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-neutral-400 md:text-lg">
-          I focus on creating web interfaces that feel clean, responsive, and thoughtful from visual concept to frontend implementation. Let's bring your ideas to life.
+          Saya berfokus pada pembuatan antarmuka web yang tampil rapi, responsif, dan dirancang dengan cermat—mulai dari konsep visual hingga implementasi frontend. Mari wujudkan ide-ide Anda.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
@@ -72,7 +72,7 @@ export default function Hero() {
             <span className="absolute inset-0 scale-75 rounded-lg bg-primary-900/20 opacity-0 blur-md transition-all duration-500 group-hover:scale-100 group-hover:opacity-100" />
             <span className="absolute left-1 top-1 h-2 w-2 border-l-2 border-t-2 border-primary-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
             <span className="absolute bottom-1 right-1 h-2 w-2 border-b-2 border-r-2 border-primary-900 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-            <span className="relative z-10">View Projects</span>
+            <span className="relative z-10">Lihat Proyek</span>
           </a>
 
           <a
@@ -80,7 +80,7 @@ export default function Hero() {
             className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg border border-white/15 bg-white/5 px-6 py-3 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-secondary-700 hover:bg-secondary-500/15 hover:shadow-[0_0_28px_rgba(212,58,58,0.25)] active:translate-y-0"
           >
             <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-secondary-800 transition-all duration-300 group-hover:w-full" />
-            <span className="relative z-10">Contact Me</span>
+            <span className="relative z-10">Hubungi Saya</span>
           </a>
         </div>
 

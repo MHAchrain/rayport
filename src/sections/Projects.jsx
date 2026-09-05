@@ -14,15 +14,15 @@ export default function Projects() {
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="text-md font-semibold uppercase tracking-widest text-primary-800">
-              Projects
+              Proyek
             </p>
             <h2 className="mt-6 max-w-3xl text-3xl font-black leading-tight text-white sm:text-5xl lg:text-[3.35rem]">
-              Selected work shaped with clean structure and careful interface details.
+              Pekerjaan terpilih yang dibentuk dengan struktur yang bersih dan detail antarmuka yang cermat.
             </h2>
           </div>
 
           <p className="max-w-xl text-base leading-8 text-neutral-400 md:text-lg">
-            A collection of web, branding, and interface explorations focused on clarity, consistency, and responsive user experience.
+            Kumpulan proyek web, branding, dan eksplorasi antarmuka yang fokus pada kejelasan, konsistensi, dan pengalaman pengguna yang responsif.
           </p>
         </div>
 

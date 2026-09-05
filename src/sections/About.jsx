@@ -25,11 +25,11 @@ export default function About() {
 
         <article className="w-full max-w-3xl flex-col justify-center text-center md:text-left lg:h-full">
           <p className="text-md font-semibold uppercase tracking-widest text-primary-800">
-            About Me
+            Tentang Saya
           </p>
 
           <h2 className="mt-4 max-w-3xl text-3xl font-black leading-tight text-white sm:text-4xl lg:text-[2.9rem]">
-            Designing clear interfaces and building smooth web experiences.
+            Merancang antarmuka yang jelas dan membangun pengalaman web yang halus.
           </h2>
 
           <p className="mt-5 max-w-3xl text-base leading-7 text-neutral-400 md:text-lg">
@@ -37,7 +37,7 @@ export default function About() {
           </p>
 
           <p className="mt-3 max-w-3xl text-base leading-7 text-neutral-400 md:text-lg">
-            I combine UI/UX thinking with frontend development to create layouts that feel clean, consistent, and easy to use across different screen sizes.
+            Saya menggabungkan pemikiran UI/UX dengan pengembangan frontend untuk menciptakan tata letak yang terasa bersih, konsisten, dan mudah digunakan di berbagai ukuran layar.
           </p>
 
           <ul className="mt-6 grid gap-3">

@@ -25,7 +25,7 @@ export default function Footer() {
 
         <nav aria-labelledby="footer-navigation">
           <h2 className="text-sm font-semibold uppercase tracking-widest text-neutral-300">
-            Navigation
+            Navigasi
           </h2>
           <ul id="footer-navigation" className="mt-4 flex flex-col gap-3">
             {navLinks.map((link) => (
@@ -43,7 +43,7 @@ export default function Footer() {
 
         <section aria-labelledby="footer-socials">
           <h2 className="text-sm font-semibold uppercase tracking-widest text-neutral-300">
-            Connect
+            Terhubung
           </h2>
           <ul id="footer-socials" className="mt-4 flex flex-wrap gap-3">
             {socials.map((social) => {
@@ -66,8 +66,8 @@ export default function Footer() {
       </div>
 
       <section className="mx-auto mt-10 flex max-w-352 flex-col gap-3 border-t border-white/10 pt-6 text-sm text-neutral-500 sm:flex-row sm:items-center sm:justify-between" aria-label="Footer credits">
-        <p>&copy; {currentYear} {profile.nickname}. All rights reserved.</p>
-        <p>Built with React, Vite, and Tailwind CSS.</p>
+        <p>&copy; {currentYear} {profile.nickname}. Hak cipta dilindungi undang-undang.</p>
+        <p>Dibuat dengan React, Vite, dan Tailwind CSS.</p>
       </section>
     </footer>
   )

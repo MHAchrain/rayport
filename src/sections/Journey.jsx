@@ -16,13 +16,13 @@ export default function Journey() {
         <div className="grid gap-10 xl:grid-cols-[0.78fr_1.22fr] xl:items-start">
           <div className="xl:sticky xl:top-28">
             <p className="text-md font-semibold uppercase tracking-widest text-primary-800">
-              Journey
+              Perjalanan
             </p>
             <h2 className="mt-6 max-w-2xl text-3xl font-black leading-tight text-white sm:text-5xl lg:text-[3.35rem]">
-              A growing path from design exploration to frontend execution.
+              Jalan yang terus berkembang dari eksplorasi desain ke eksekusi frontend.
             </h2>
             <p className="mt-6 max-w-xl text-base leading-8 text-neutral-400 md:text-lg">
-              The milestones that shape how I learn, design, and build clearer digital products with stronger visual direction.
+              Titik-titik penting yang membentuk bagaimana saya belajar, merancang, dan membangun produk digital yang lebih jelas dengan arahan visual yang lebih kuat.
             </p>
           </div>
 
