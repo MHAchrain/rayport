@@ -65,19 +65,19 @@ export const skillGroups = [
   {
     title: 'Frontend Developer',
     icon: 'React',
-    description: 'Building responsive layouts, reusable components, and smooth interactions.',
+    description: 'Membuat tata letak yang responsif, komponen yang dapat digunakan kembali, dan interaksi yang lancar.',
     items: ['React', 'JavaScript', 'Tailwind CSS'],
   },
   {
     title: 'UI/UX Designer',
     icon: 'UI',
-    description: 'Designing user flows, visual hierarchy, prototypes, and user-centered experiences.',
+    description: 'Mendesain alur pengguna, hierarki visual, prototipe, dan pengalaman yang berfokus pada pengguna.',
     items: ['Figma', 'Wireframe', 'Prototype', 'Design System'],
   },
   {
     title: 'Mobile Developer',
     icon: 'Flutter',
-    description: 'Creating cross-platform mobile applications with a focus on performance and user experience.',
+    description: 'Mengembangkan aplikasi mobile lintas-platform dengan fokus pada kinerja dan pengalaman pengguna.',
     items: ['Flutter', 'Dart', 'Responsive Design', 'State Management'],
   },
 ]
@@ -94,18 +94,9 @@ export const projects = [
     category: 'Multiplatform Web App',
     image: Rere1,
     description:
-      'Dashboard produktivitas untuk mengelola tugas kuliah, prioritas, dan kemajuan harian dengan fokus pada kejelasan visual.',
+      'Website yang dirancang untuk memudahkan pemilik bisnis petshop dalam mengelola produk, stok, dan pesanan secara efisien. Dengan antarmuka yang intuitif, pemilik dapat dengan mudah menambahkan produk baru',
     tech: ['React', 'Tailwind CSS', 'Laravel', 'Flutter', 'Figma', 'UI/UX', 'MySQL'],
     link: '#',
-  },
-  {
-    title: 'Portfolio Concept System',
-    category: 'Personal Brand',
-    image: Portfolio,
-    description:
-      'Ekplorasi sistem visual untuk portfolio modern dengan komponen kaca, ton premium, dan navigasi yang ringkas.',
-    tech: ['React', 'Tailwind CSS'],
-    link: 'https://mha-portofolio.vercel.app/',
   },
   {
     title: 'SoftComp Landing Page',
@@ -121,7 +112,7 @@ export const projects = [
     category: 'UI/UX Design',
     image: grevora,
     description:
-      'Sebuah aplikasi mobile untuk pengelolaan sampah perkotaan yang didasarkan pada ekonomi sirkular. Dikembangkan menggunakan metode Design Thinking, Grevora mengintegrasikan sistem insentif ganda dan gamifikasi untuk memotivasi masyarakat agar memilah sampah langsung di sumbernya.',
+      'Sebuah desain aplikasi mobile untuk pengelolaan sampah perkotaan yang didasarkan pada ekonomi sirkular. Dikembangkan menggunakan metode Design Thinking, Grevora mengintegrasikan sistem insentif ganda dan gamifikasi untuk memotivasi masyarakat agar memilah sampah langsung di sumbernya.',
     tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
     link: 'http://figma.com/proto/HsbtvSTWg3iyFG2NZWqKRE/UIUX-Techomfest-KicauMania?node-id=1380-6887&p=f&t=fG1zxi73hse1xH9Y-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1380%3A3697',
   },
@@ -130,7 +121,7 @@ export const projects = [
     category: 'UI/UX Design',
     image: cleanair,
     description:
-      'Sebuah aplikasi mobile untuk pengelolaan sampah perkotaan yang didasarkan pada ekonomi sirkular. Dikembangkan menggunakan metode Design Thinking, Clean Air mengintegrasikan sistem insentif ganda dan gamifikasi untuk memotivasi masyarakat agar memilah sampah langsung di sumbernya.',
+      'Sebuah desain aplikasi mobile untuk memantau kualitas udara di sekitar pulau Jawa. Dikembangkan menggunakan metode Design Thinking, Clean Air menawarkan visualisasi data yang jelas dan intuitif.',
     tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
     link: 'https://www.figma.com/proto/RAXVQlX3wvvRfqQNtzyzG6/KICAU-MANIA?node-id=1-2&p=f&t=tBaBTfnE43D9xTBQ-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=115%3A108',
   },
@@ -139,7 +130,7 @@ export const projects = [
     category: 'UI/UX Design',
     image: growsight,
     description:
-      'Sebuah aplikasi layanan kesehatan seluler yang dirancang untuk deteksi dini stunting dan pemantauan pertumbuhan anak, yang membantu orang tua memantau perkembangan gizi anak serta mengakses edukasi kesehatan yang terpercaya dengan mudah.',
+      'Sebuah desain aplikasi layanan kesehatan mobile yang dirancang untuk deteksi dini stunting dan pemantauan pertumbuhan anak dengan bantuan teknologi AI, yang membantu orang tua memantau perkembangan gizi anak serta mengakses edukasi kesehatan yang terpercaya dengan mudah.',
     tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
     link: 'https://www.figma.com/proto/NkcitBwuYIajNkRcbQagzU/UJANGKEDU-UNJAYA?node-id=0-1&t=STwmNSDstHGVZTV3-1',
   },
@@ -148,19 +139,19 @@ export const projects = [
 export const experiences = [
   {
     year: '2024',
-    title: 'Starting Basic of Software Engineering',
+    title: 'Memahami Dasar-dasar Rekayasa Perangkat Lunak',
     description:
       'Mempelajari dasar-dasar rekayasa perangkat lunak, termasuk pemrograman, algoritma, dan struktur data untuk membangun fondasi yang kuat dalam pengembangan perangkat lunak.',
   },
   {
     year: '2025',
-    title: 'Exploring Web Development and UI/UX Design',
+    title: 'Mengeksplorasi Framework, Desain Responsif, dan Pengalaman Pengguna',
     description:
       'Mengeksplorasi kerangka kerja pengembangan web (framework), desain responsif, dan prinsip pengalaman pengguna untuk menciptakan aplikasi yang fungsional dan menarik secara visual.',
   },
   {
     year: '2026',
-    title: 'Developing Multiplatform Solutions & Partnering with Businesses',
+    title: 'Mengembangkan Solusi Multiplatform & Bekerja Sama dengan Bisnis',
     description:
     'Membuat desain aplikasi mobile dan web yang dapat berjalan di berbagai platform, serta menjalin kemitraan dengan bisnis untuk mengimplementasikan solusi digital yang inovatif.',
   },

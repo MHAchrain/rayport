@@ -33,7 +33,7 @@ export default function Skills() {
             Keterampilan
           </p>
           <h2 className="mt-6 max-w-2xl text-3xl font-black leading-tight text-white sm:text-5xl lg:text-[3.35rem]">
-            Alat dan pemikiran yang saya gunakan untuk membentuk produk digital yang bersih.
+            Alat dan bahasa yang saya gunakan untuk membentuk produk digital.
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-8 text-neutral-400 md:text-lg">
             Perpaduan antara implementasi frontend, desain antarmuka, dan kebiasaan alur kerja yang membantu saya mewujudkan ide-ide menjadi pengalaman web yang responsif, konsisten, dan nyaman.
