@@ -23,13 +23,13 @@ export default function Hero() {
       <div className="absolute inset-x-0 bottom-0 z-0 h-48 bg-linear-to-b from-transparent via-background/85 to-background" />
 
       <div className="relative z-10 mx-auto w-full max-w-5xl">
-        <p className="inline-flex max-w-full items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-[0.68rem] font-semibold uppercase tracking-widest text-secondary-900 backdrop-blur-md shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06),0_0_24px_rgba(149,1,1,0.2)] sm:px-4 sm:text-xs">
+        {/* <p className="inline-flex max-w-full items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-[0.68rem] font-semibold uppercase tracking-widest text-secondary-900 backdrop-blur-md shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06),0_0_24px_rgba(149,1,1,0.2)] sm:px-4 sm:text-xs">
           <span className="relative flex h-2.5 w-2.5">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary-900 opacity-75" />
             <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-primary-900 shadow-[0_0_12px_rgba(255,31,31,0.9)]" />
           </span>
           Bersedia untuk Freelance & Part-time
-        </p>
+        </p> */}
 
         <h1 className="mx-auto mt-6 max-w-5xl text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
           Halo, Saya{' '}
