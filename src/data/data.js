@@ -1,15 +1,20 @@
+// Profile
 import Ray from '../assets/profile.jpeg'
-import Rere1 from '../assets/webapp1.png'
-import Rere2 from '../assets/webapp2.png'
-import Rere3 from '../assets/webapp3.png'
-import SoftComp from '../assets/softcomp.png'
-import Portfolio from '../assets/port.png'
 import MHAR from '../assets/MHARed.svg'
 import MHAW from '../assets/MHAWhite.svg'
+
+// Project
+import Rere1 from '../assets/webapp1.png'
+import SoftComp from '../assets/softcomp.png'
 import grevora from '../assets/grevora.png'
 import cleanair from '../assets/cleanair.png'
 import growsight from '../assets/gs.png'
+
+// Sertifikat skill
 import sertifdasarweb from '../assets/sertif1.png'
+import sertifjs from '../assets/sertif5.png'
+
+// Sertifikat lomba
 import sertiflomba from '../assets/sertif2.png'
 import sertiflomba2 from '../assets/sertif3.png'
 import sertiflomba3 from '../assets/sertif4.png'
@@ -149,6 +154,15 @@ export const sertificates = [
     description:
       'Sertifikat yang menunjukkan keahlian dalam pengembangan web menggunakan teknologi terkini.',
     tech: ['HTML', 'CSS'],
+    link: '#',
+  },
+  {
+    title: 'Sertifikat Belajar Dasar JavaScript',
+    category: 'Programming',
+    image: sertifjs,
+    description:
+      'Sertifikat yang menunjukkan keahlian dalam pengembangan web menggunakan teknologi terkini.',
+    tech: ['JavaScript'],
     link: '#',
   },
   {
