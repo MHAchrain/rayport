@@ -23,20 +23,20 @@ export const profile = {
   location: 'Indonesia',
   email: 'mhikmaturrahman2@gmail.com',
   photo: Ray,
-  headline: 'Hi, I\'m MH Achrain (Ray).',
+  headline: 'Halo, Saya MH Achrain (Ray).',
   description:
-    'A Frontend Developer & UI/UX Designer focused on creating clean, consistent, and intuitive digital interfaces. Currently actively developing various academic and personal projects with full attention to visual detail and user comfort (user-centric design).',
+    'Seorang Frontend Developer & UI/UX Designer yang berfokus pada pembuatan antarmuka digital yang rapi, konsisten, dan intuitif. Saat ini sedang aktif mengembangkan berbagai proyek akademis dan pribadi dengan memperhatikan secara cermat detail visual dan kenyamanan pengguna (desain yang berpusat pada pengguna).',
   summary:
-    'This logo embodies my identity as a developer and designer through a precise geometric stencil design that combines the initials MHA, with the letter "A" serving as a UI/UX navigation cursor, all wrapped in the sharp-angled aesthetic characteristic of the gaming world.',
+    'Logo ini mencerminkan identitas saya sebagai pengembang dan desainer melalui desain stensil geometris yang presisi, yang memadukan inisial MHA dengan huruf “A” yang berfungsi sebagai kursor navigasi UI/UX, semuanya dibungkus dalam estetika bersudut tajam yang menjadi ciri khas dunia game.',
 }
 
 export const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Journey', href: '#journey' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Beranda', href: '#home' },
+  { label: 'Tentang Saya', href: '#about' },
+  { label: 'Keterampilan', href: '#skills' },
+  { label: 'Proyek', href: '#projects' },
+  { label: 'Perjalanan', href: '#journey' },
+  { label: 'Kontak', href: '#contact' },
 ]
 
 export const socials = [
@@ -83,9 +83,9 @@ export const skillGroups = [
 ]
 
 export const aboutPoints = [
-  'Building interfaces from wireframes, visual design, to frontend implementation.',
-  'Maintaining consistency in spacing, colors, typography, and components for a polished product.',
-  'Prioritizing clear user flows, responsiveness, and comfort across various screen sizes.',
+  'Membangun antarmuka dari wireframes, desain visual, hingga implementasi frontend.',
+  'Mempertahankan konsistensi dalam jarak, warna, tipografi, dan komponen untuk produk yang terlihat profesional.',
+  'Mengutamakan alur pengguna yang jelas, responsif, dan nyaman di berbagai ukuran layar.',
 ]
 
 export const projects = [
@@ -94,7 +94,7 @@ export const projects = [
     category: 'Multiplatform Web App',
     image: Rere1,
     description:
-      'Productivity dashboard for managing college tasks, priorities, and daily progress with a focus on visual clarity.',
+      'Dashboard produktivitas untuk mengelola tugas kuliah, prioritas, dan kemajuan harian dengan fokus pada kejelasan visual.',
     tech: ['React', 'Tailwind CSS', 'Laravel', 'Flutter', 'Figma', 'UI/UX', 'MySQL'],
     link: '#',
   },
@@ -103,7 +103,7 @@ export const projects = [
     category: 'Personal Brand',
     image: Portfolio,
     description:
-      'Visual system exploration for a modern portfolio with glass components, premium tones, and concise navigation.',
+      'Ekplorasi sistem visual untuk portfolio modern dengan komponen kaca, ton premium, dan navigasi yang ringkas.',
     tech: ['React', 'Tailwind CSS'],
     link: 'https://mha-portofolio.vercel.app/',
   },
@@ -112,7 +112,7 @@ export const projects = [
     category: 'Website Native',
     image: SoftComp,
     description:
-      'Student event landing page with a clear information structure, clear CTAs, and an easily scannable layout.',
+      'Landing page kegiatan lomba mahasiswa dengan struktur informasi yang jelas, tombol Call to Action yang menonjol, dan tata letak yang mudah di-scan.',
     tech: ['HTML', 'CSS', 'PHP', 'MySQL', 'JS'],
     link: '#',
   },
@@ -121,7 +121,7 @@ export const projects = [
     category: 'UI/UX Design',
     image: grevora,
     description:
-      'A smart urban waste management mobile app based on the circular economy. Developed using the Design Thinking method, Grevora integrates a dual-incentive system and gamification to motivate the public to sort waste directly at the source.',
+      'Sebuah aplikasi mobile untuk pengelolaan sampah perkotaan yang didasarkan pada ekonomi sirkular. Dikembangkan menggunakan metode Design Thinking, Grevora mengintegrasikan sistem insentif ganda dan gamifikasi untuk memotivasi masyarakat agar memilah sampah langsung di sumbernya.',
     tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
     link: 'http://figma.com/proto/HsbtvSTWg3iyFG2NZWqKRE/UIUX-Techomfest-KicauMania?node-id=1380-6887&p=f&t=fG1zxi73hse1xH9Y-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1380%3A3697',
   },
@@ -130,7 +130,7 @@ export const projects = [
     category: 'UI/UX Design',
     image: cleanair,
     description:
-      'A smart urban waste management mobile app based on a circular economy, designed to motivate the public to sort waste directly at the source through a dual-incentive system and gamification.',
+      'Sebuah aplikasi mobile untuk pengelolaan sampah perkotaan yang didasarkan pada ekonomi sirkular. Dikembangkan menggunakan metode Design Thinking, Clean Air mengintegrasikan sistem insentif ganda dan gamifikasi untuk memotivasi masyarakat agar memilah sampah langsung di sumbernya.',
     tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
     link: 'https://www.figma.com/proto/RAXVQlX3wvvRfqQNtzyzG6/KICAU-MANIA?node-id=1-2&p=f&t=tBaBTfnE43D9xTBQ-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=115%3A108',
   },
@@ -139,7 +139,7 @@ export const projects = [
     category: 'UI/UX Design',
     image: growsight,
     description:
-      'A mobile healthcare application designed for early stunting detection and child growth monitoring, helping parents track nutritional development and access valid health education easily.',
+      'Sebuah aplikasi layanan kesehatan seluler yang dirancang untuk deteksi dini stunting dan pemantauan pertumbuhan anak, yang membantu orang tua memantau perkembangan gizi anak serta mengakses edukasi kesehatan yang terpercaya dengan mudah.',
     tech: ['Figma', 'UI/UX Design', 'Wireframing', 'Interactive Prototyping', 'Design Thinking', 'User Research'],
     link: 'https://www.figma.com/proto/NkcitBwuYIajNkRcbQagzU/UJANGKEDU-UNJAYA?node-id=0-1&t=STwmNSDstHGVZTV3-1',
   },
@@ -150,19 +150,19 @@ export const experiences = [
     year: '2024',
     title: 'Starting Basic of Software Engineering',
     description:
-      'Learning the fundamentals of software engineering, including programming languages, algorithms, and basic web development concepts.',
+      'Mempelajari dasar-dasar rekayasa perangkat lunak, termasuk pemrograman, algoritma, dan struktur data untuk membangun fondasi yang kuat dalam pengembangan perangkat lunak.',
   },
   {
     year: '2025',
     title: 'Exploring Web Development and UI/UX Design',
     description:
-      'Diving into web development frameworks, responsive design, and user experience principles to create functional and visually appealing applications.',
+      'Mengeksplorasi kerangka kerja pengembangan web (framework), desain responsif, dan prinsip pengalaman pengguna untuk menciptakan aplikasi yang fungsional dan menarik secara visual.',
   },
   {
     year: '2026',
     title: 'Developing Multiplatform Solutions & Partnering with Businesses',
     description:
-    'Designing and building production-ready web and mobile e-commerce applications for local business partners, while mastering full-stack integration and end-to-end development.',
+    'Membuat desain aplikasi mobile dan web yang dapat berjalan di berbagai platform, serta menjalin kemitraan dengan bisnis untuk mengimplementasikan solusi digital yang inovatif.',
   },
 ]
 
